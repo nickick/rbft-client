@@ -1,0 +1,15 @@
+{
+  "manifest_version": 2,
+  "name": "RBFT",
+  "description": "This extension lets you connect in real-time to see what's making your friends happy!",
+  "version": "0.1",
+  "permissions": [
+    "webview"
+  ],
+  "app": {
+    "background": {
+      "scripts": ["background.js"]
+    }
+  },
+  "icons": { "16": "icon.png", "128": "icon.png" }
+}
